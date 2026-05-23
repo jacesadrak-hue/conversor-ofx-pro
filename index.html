@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conversor OFX Pro</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #06111f, #0f172a, #111827);
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: auto;
+      padding: 70px 24px;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(37, 99, 235, 0.18);
+      color: #93c5fd;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 22px;
+      border: 1px solid rgba(147, 197, 253, 0.25);
+    }
+
+    h1 {
+      font-size: 46px;
+      margin: 0 0 14px;
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      font-size: 19px;
+      color: #cbd5e1;
+      line-height: 1.6;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 34px;
+      padding: 17px 32px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 12px;
+      font-size: 18px;
+      box-shadow: 0 12px 30px rgba(37, 99, 235, 0.35);
+    }
+
+    .btn:hover {
+      background: #1d4ed8;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 48px;
+      text-align: left;
+    }
+
+    .card {
+      background: rgba(15, 29, 51, 0.92);
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      border-radius: 18px;
+      padding: 22px;
+      min-height: 160px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      color: #ffffff;
+      font-size: 19px;
+    }
+
+    .card p {
+      margin: 0;
+      color: #cbd5e1;
+      line-height: 1.5;
+      font-size: 15px;
+    }
+
+    .box {
+      margin-top: 36px;
+      padding: 28px;
+      background: rgba(15, 29, 51, 0.92);
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      border-radius: 18px;
+      text-align: left;
+    }
+
+    .box h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    .box p {
+      color: #dbeafe;
+      line-height: 1.55;
+      margin: 10px 0;
+    }
+
+    .warning {
+      margin-top: 28px;
+      padding: 18px;
+      border-radius: 14px;
+      background: rgba(234, 179, 8, 0.12);
+      border: 1px solid rgba(234, 179, 8, 0.28);
+      color: #fde68a;
+      text-align: left;
+      line-height: 1.5;
+      font-size: 15px;
+    }
+
+    .hash {
+      margin-top: 26px;
+      padding: 14px;
+      background: rgba(2, 6, 23, 0.55);
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      border-radius: 12px;
+      color: #94a3b8;
+      font-size: 13px;
+      word-break: break-all;
+    }
+
+    .footer {
+      font-size: 14px;
+      color: #94a3b8;
+      margin-top: 36px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 800px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .container {
+        padding: 46px 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <div class="badge">Software comercial para conversão bancária</div>
+
+    <h1>Conversor OFX Pro</h1>
+
+    <p class="subtitle">
+      Converta extratos bancários em OFX e formatos contábeis de forma simples,
+      rápida e profissional. O sistema possui OCR embutido, licença online e compra
+      integrada pelo Mercado Pago.
+    </p>
+
+    <a class="btn" href="https://github.com/jacesadrak-hue/conversor-ofx-pro/releases/download/v100/Conversor.OFX.zip">
+      Baixar Conversor OFX Pro
+    </a>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Conversão bancária</h3>
+        <p>
+          Converte extratos e arquivos bancários para formatos usados em rotinas
+          contábeis e financeiras.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>OCR embutido</h3>
+        <p>
+          Inclui suporte para leitura de PDFs com OCR, sem o cliente precisar
+          instalar Python ou ferramentas adicionais.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Licença online</h3>
+        <p>
+          Ativação e validação de licença pela internet, com compra integrada
+          dentro do próprio programa.
+        </p>
+      </div>
+    </section>
+
+    <section class="box">
+      <h2>Como instalar e ativar</h2>
+
+      <p><strong>1.</strong> Clique no botão acima para baixar o arquivo ZIP.</p>
+      <p><strong>2.</strong> Extraia o arquivo baixado em uma pasta do computador.</p>
+      <p><strong>3.</strong> Abra o arquivo <strong>Conversor_OFX_Pro.exe</strong>.</p>
+      <p><strong>4.</strong> Clique em <strong>Comprar licença</strong> dentro do programa.</p>
+      <p><strong>5.</strong> Faça o pagamento pelo Mercado Pago.</p>
+      <p><strong>6.</strong> Volte ao programa e clique em <strong>Já paguei / Verificar</strong>.</p>
+      <p><strong>7.</strong> A licença será gerada e ativada automaticamente.</p>
+    </section>
+
+    <div class="warning">
+      <strong>Aviso de segurança do Windows:</strong><br>
+      Como o programa ainda não possui assinatura digital comercial, o Windows pode
+      mostrar um aviso ao abrir. Nesse caso, clique em <strong>Mais informações</strong>
+      e depois em <strong>Executar assim mesmo</strong>.
+    </div>
+
+    <div class="hash">
+      <strong>SHA256 do arquivo:</strong><br>
+      191ab3b0e3709144f897f95d125fbf745c59d890e205d5b6f443f4ae6a737685
+    </div>
+
+    <p class="footer">
+      Suporte: jacesadrak@gmail.com<br>
+      Produto comercial. Não distribua, copie ou revenda sem autorização.
+    </p>
+  </main>
+</body>
+</html>
